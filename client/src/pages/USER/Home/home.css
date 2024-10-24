@@ -1,0 +1,80 @@
+.home{
+    height: 100vh;
+    padding: 15px 8%;
+}
+.user-badge {
+    width: 450px;
+    max-width: 425px;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.user-badge img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.user-badge h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    word-wrap: break-word; 
+}
+
+.user-badge div {
+    margin-bottom: 20px;
+    word-wrap: break-word; 
+    text-align: left;
+}
+
+.user-badge p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+
+.user-badge span {
+    color: #333;
+    font-weight: 500;
+    margin: 3px;
+}
+
+.user-badge button {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 12px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-badge .edit-btn{
+    background: #0056b3 ;
+}  
+
+.user-badge .edit-btn:hover {
+    background-color: #003874;
+}
+
+.user-badge .logout-btn{
+    background: #e60000 ;
+}  
+
+.user-badge .logout-btn:hover {
+    background-color: #b40000;
+}

@@ -1,0 +1,112 @@
+.edit-user{
+    height: 100vh;
+    padding: 15px 8%;
+}
+
+.edit-user-form {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 35px 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.edit-user-form h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.edit-user-form img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.edit-user-form input {
+    width: 100%;
+    height: 45px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+.edit-user-form input:focus {
+    border-color: #f3a939;
+    outline: none;
+}
+
+.edit-user-form input::placeholder {
+    color: #aaa;
+}
+
+.edit-user-form form input[type="submit"] {
+    background-color: #fa933f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-user-form form input[type="submit"]:hover {
+    background-color: #f8963b;
+}
+
+.file-input-container {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-img-btn {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 14px;
+    background-color: hsl(29, 100%, 50%);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-user-form button{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 14px;
+    background: #ff9900;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.edit-user-form button:hover {
+    background-color: #f5ab56;
+}
+
+.form-switch {
+    margin-top: 40px;
+    color: #737373;
+}
+
+.form-switch span {
+    margin-left: 6px;
+    color: #0a0a0a;
+    font-weight: 500;
+    cursor: pointer;
+}

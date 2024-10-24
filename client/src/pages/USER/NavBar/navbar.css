@@ -1,0 +1,12 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-color: rgb(245, 245, 245);
+    z-index: 1;
+}
+
+.navbar img {
+    margin-left: 95px;
+}

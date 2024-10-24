@@ -1,0 +1,191 @@
+.dashboard {
+    height: 100vh;
+    padding: 10px 8%;
+    background-color: #dbdbdb;
+}
+
+.container {
+    display: block;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.header input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 60%;
+    outline: none;
+}
+
+.header button {
+    padding: 8px 16px;
+    border: 0;
+    outline: 0;
+    background: #ff8800;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.header button:hover {
+    background: #eb9d28;
+}
+
+.users-list {
+    margin-top: 30px;
+    color: black;
+}
+
+.users-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.users-list th, .users-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.users-list th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+}
+
+.users-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+.users-list .profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+
+.users-list button {
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    background: #ff8800;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.users-list button:hover {
+    background: #f59d1a;
+}
+
+.users-list button.delete-btn {
+    background: #dc3545;
+}
+
+.users-list button.delete:hover {
+    background: #c82333;
+}
+
+.no-users-found {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #888;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pagination-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.1s ease;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  .pagination-button:hover:not(:disabled) {
+    background-color: #f19d2f;
+  }
+  
+  .page-numbers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-number-button {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.1s ease;
+  }
+  
+  .page-number-button:hover {
+    background-color: #ddd;
+  }
+  
+  .page-number-button.active {
+    background-color: #ff9100;
+    color: white;
+    border: none;
+  }
+  
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f8f9fa; /* Adjust as needed */
+}
+
+.logout-button {
+    background-color: #ff0019; /* Bootstrap danger color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #f04354; /* Slightly darker shade */
+}
