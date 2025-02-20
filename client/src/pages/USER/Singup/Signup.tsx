@@ -107,11 +107,12 @@ const handleSubmit=async(e:React.FormEvent<HTMLFormElement>)=>{
       setErrors((pre)=>({...pre}))
     }
   }
-
 }
+
 const navigateToLogin=()=>{
   navigate("/signin")
 }
+
   return (
     <div>
        <div className='signup min-h-screen flex justify-center items-center'>

@@ -146,16 +146,7 @@ const Dashboard:React.FC = () => {
 
                 <div className='header'>
                     <p>Manage Users</p>
-                    <div>
-                        <input
-                            type="text"
-                            placeholder='Search for users...'
-                            className='search-bar'
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                        />
-                        <button >Search</button>
-                    </div>
+                   
                     <button onClick={navigateToAddUser}>Add user</button>
                 </div>
 
@@ -240,5 +231,14 @@ const Dashboard:React.FC = () => {
         </div>
     )
 }
-
+{/* <div>
+<input
+    type="text"
+    placeholder='Search for users...'
+    className='search-bar'
+    value={searchQuery}
+    onChange={(e) => setSearchQuery(e.target.value)}
+/>
+<button >Search</button>
+</div> */}
 export default Dashboard

@@ -109,7 +109,7 @@ const AdminLogin:React.FC = () => {
       <div className='admin-login-form'>
         <h1 className='font-semibold'>Sign In as Admin</h1>
         <form onSubmit={handleSubmit} >
-          <input type="email" placeholder='Email address' name='email' onChange={handleChange} />
+          <input type="email" placeholder='Email address' name='email' onChange={handleChange} required/>
           <input type="password" placeholder='Password' name='password' onChange={handleChange} />
           {isLoading ? (<Spinner />) : (<button type='submit'>Sign In</button>)}
         </form>

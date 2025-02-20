@@ -132,16 +132,16 @@ const CreateUser:React.FC = () => {
         <h1>Create an User</h1>
         <form onSubmit={handleSubmit} >
 
-          <input type="text" name='name' value={formData.name} placeholder='Username' onChange={handleChange} />
+          <input type="text" name='name' value={formData.name} placeholder='Username' onChange={handleChange} required/>
           {errors.name && <p className="error">{errors.name}</p>}
 
-          <input type="email" name='email' value={formData.email} placeholder='Email address' onChange={handleChange} />
+          <input type="email" name='email' value={formData.email} placeholder='Email address' onChange={handleChange} required/>
           {errors.email && <p className="error">{errors.email}</p>}
 
-          <input type="text" name='mobile' value={formData.mobile} placeholder='Mobile' onChange={handleChange} />
+          <input type="text" name='mobile' value={formData.mobile} placeholder='Mobile' onChange={handleChange} required/>
           {errors.mobile && <p className="error">{errors.mobile}</p>}
 
-          <input type="password" name='password' value={formData.password} placeholder='Password' onChange={handleChange} />
+          <input type="password" name='password' value={formData.password} placeholder='Password' onChange={handleChange} required/>
           {errors.password && <p className="error">{errors.password}</p>}
 
           {/* <div className='file-input-container'>

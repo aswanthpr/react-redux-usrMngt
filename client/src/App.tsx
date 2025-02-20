@@ -41,8 +41,6 @@ const  App:React.FC=() =>{
         <Route path="/admin/add-user" element={<CreateUser/>}/>
         <Route path="/admin/edit-user/:userId" element={<AdminEditUser/>}/>
        </Route>
-        
-       
       </Routes>
     </div>
   );

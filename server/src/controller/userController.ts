@@ -115,8 +115,8 @@ export const getUserData = async (
     const token: string | undefined = authHeader?.split(" ")[1];
 
     const decodedToken: any = jwt.verify(
-      token ?? "",
-      process.env.JWT_SECRET_KEY ?? ""
+      token!,
+      process.env.JWT_SECRET_KEY as string
     );
 
     req.user = { id: decodedToken.userId };

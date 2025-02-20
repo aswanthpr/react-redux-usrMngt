@@ -157,6 +157,7 @@ const AdminEditUser:React.FC = () => {
                         placeholder='Username'
                         value={userData.name}
                         onChange={handleInputChange}
+                        required
                     />
                     {errors.name && <p className='error'>{errors.name}</p>}
 
@@ -166,6 +167,7 @@ const AdminEditUser:React.FC = () => {
                         placeholder='Email address'
                         value={userData.email}
                         onChange={handleInputChange}
+                        required
                     />
                     {errors.email && <p className='error'>{errors.email}</p>}
 
@@ -175,6 +177,7 @@ const AdminEditUser:React.FC = () => {
                         placeholder='Mobile'
                         value={userData.mobile}
                         onChange={handleInputChange}
+                        required
                     />
                     {errors.mobile && <p className='error'>{errors.mobile}</p>}
 

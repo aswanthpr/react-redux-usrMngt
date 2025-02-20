@@ -29,6 +29,8 @@ const dispatch = useDispatch();
 const navigate = useNavigate();
 
 useEffect(()=>{
+
+
   const token = localStorage.getItem("userToken");
   console.log("token",token)
   
@@ -60,8 +62,9 @@ useEffect(()=>{
     }
     
   }
+
   fetchUserData()
-},[]);
+},[navigate]);
 
 const handleLogout=()=>{
   dispatch(logout(
@@ -86,6 +89,7 @@ const {name,email,mobile,profileUrl}=userData;
           </div>
          
           <h2>Welcome, {name}!</h2>
+       
           <div >
             <p >Email : <span className='details'>{email}</span></p>
             <p>Mobile :<span className='details'>{mobile}</span> </p>
